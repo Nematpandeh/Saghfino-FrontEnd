@@ -1,0 +1,105 @@
+:root
+{
+   --Primary :#CB1B1B;
+   --White :#FFFFFF;
+   --Black :#0C0C0C;
+   --Info  :#2F80ED;
+
+}
+html{
+box-sizing: border-box;
+font-size: 62.5%; 
+}
+*,*::after,*::before
+{
+    box-sizing: inherit;
+}
+body
+{
+    direction: rtl;
+    text-align: right;
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: "body";
+    background-color: var(--White);
+}
+.logo
+{
+    width: 131xp;
+    height: 63px;
+}
+/*nav section*/
+
+
+
+.container
+{
+    padding-left: 14rem;
+    padding-right: 14rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.header
+{
+    margin-top: 4rem;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.nav-wrapper
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.nav-logo
+{
+    margin-right: 6rem;
+
+}
+.nav-logo
+{
+    margin-left:  4rem; ;
+}
+.menue-list
+{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+   
+    
+    
+}
+.menue-list-time
+{
+    font-family: "Anybody-Regular";
+
+}
+.nav-links
+{
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+   
+  
+}
+.nav-link
+{
+    
+    color: var(--Primary);
+    text-decoration: none;
+   
+
+}
+.nav-link-active{
+    border: 0.1rem solid var(--Primary);
+    padding: 0.6rem;
+   border-radius: 1rem;
+
+}
