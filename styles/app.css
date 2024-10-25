@@ -22,6 +22,7 @@ body
     font-size: 1.6rem;
     font-family: "body";
     background-color: var(--White);
+    justify-content: center;
 }
 .logo
 {
@@ -42,13 +43,19 @@ body
 }
 .header
 {
-    margin-top: 4rem;
+    
+    background: url(../images/png/Photo\ \(1\).png);
+    background-size: cover;
+    background-position:var(--White);
+    min-height: 70rem;
 }
 .nav
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 5rem;
+    padding-left: 2rem;
  
 }
 .nav-wrapper
@@ -60,6 +67,7 @@ body
 .nav-logo
 {
     margin-right: 6rem;
+    padding-left: 2rem;
 
 }
 .nav-logo
@@ -103,3 +111,51 @@ body
    border-radius: 1rem;
 
 }
+.box{
+    width: auto;
+    height: 16rem;
+    background-color: #FFFFFF;
+    padding-top: 5rem;
+    padding: 0.5rem;
+    margin: 6rem;
+    border-radius: 3rem;
+    margin-top: auto;
+    padding-left: 0.5rem;
+    padding-bottom: 2rem;
+}
+.header-content{
+
+    text-align: center;
+    margin-top: 12rem;
+}
+.header-content_title{
+    color: var(--White);
+    font-family:"ADLaM_Display" ;
+    font-size: 6rem;
+
+}
+.header-content_caption{
+    color: var(--White);
+    font-family: "ADLaM_Display";
+    font-size: 3rem;
+
+}
+.box2{
+    width: 70rem;
+    height: 108px;
+    background-color: #f0f0f0;
+    border: 2px ;
+    padding: 10px;
+    justify-content: flex-start; 
+   text-align: center;
+    border-radius: 5px;
+    align-self: flex-end;
+    font-size: 2rem;
+}
+.thin-line{
+    border: none;
+    border-top: 1rem;
+    width: 65rem;
+    margin: 2rem auto;
+}
+        
