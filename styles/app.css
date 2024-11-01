@@ -1,3 +1,7 @@
+
+@import url(../styles/fonts.css);
+
+
 :root
 {
    --Primary :#CB1B1B;
@@ -20,7 +24,7 @@ body
     text-align: right;
     line-height: 1.6;
     font-size: 1.6rem;
-    font-family: "body";
+    font-family: "Anybody-Regular";
     background-color: var(--White);
     justify-content: center;
 }
@@ -29,12 +33,9 @@ body
     width: 131xp;
     height: 63px;
 }
-/*nav section*/
-
-
-
 .container
 {
+    min-width: 76.5rem;
     padding-left: 14rem;
     padding-right: 14rem;
     margin-left: auto;
@@ -46,17 +47,20 @@ body
     
     background: url(../images/png/Photo\ \(1\).png);
     background-size: cover;
-    background-position:var(--White);
+    background-position:center;
     min-height: 70rem;
+    padding-top: 3rem;
+    margin-bottom: 10rem;
 }
-.nav
-{
+
+.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 5rem;
-    padding-left: 2rem;
- 
+    background-color: var(--White);
+    border-radius: 1rem;
+    padding: 1rem 3rem ;
+
 }
 .nav-wrapper
 {
@@ -64,29 +68,18 @@ body
    justify-content: space-between;
    align-items: center;
 }
-.nav-logo
-{
-    margin-right: 6rem;
-    padding-left: 2rem;
 
-}
-.nav-logo
-{
-    margin-left:  4rem; ;
-}
 .menue-list
 {
     display: flex;
     align-items: center;
     gap: 2rem;
-    
-   
-    
-    
+   padding-right: 4rem;
 }
-.menue-list-time
+.menue-list-item
 {
     font-family: "Anybody-Regular";
+    font-size: 2rem;
 
 }
 .nav-links
@@ -98,35 +91,23 @@ body
   
 }
 .nav-link
-{
-    
-    color: var(--Primary);
+{ 
+   color: var(--Black);
     text-decoration: none;
-   
-
+   padding-left: 2rem;
 }
 .nav-link-active{
     border: 0.1rem solid var(--Primary);
     padding: 0.6rem;
    border-radius: 1rem;
+    color: var(--Primary);
+    
+}
 
-}
-.box{
-    width: auto;
-    height: 16rem;
-    background-color: #FFFFFF;
-    padding-top: 5rem;
-    padding: 0.5rem;
-    margin: 6rem;
-    border-radius: 3rem;
-    margin-top: auto;
-    padding-left: 0.5rem;
-    padding-bottom: 2rem;
-}
 .header-content{
 
     text-align: center;
-    margin-top: 12rem;
+    margin-top: 15rem;
 }
 .header-content_title{
     color: var(--White);
@@ -137,25 +118,44 @@ body
 .header-content_caption{
     color: var(--White);
     font-family: "ADLaM_Display";
-    font-size: 3rem;
+    font-size: 3.8rem;
 
 }
-.box2{
-    width: 70rem;
-    height: 108px;
-    background-color: #f0f0f0;
-    border: 2px ;
-    padding: 10px;
-    justify-content: flex-start; 
-   text-align: center;
-    border-radius: 5px;
-    align-self: flex-end;
+.header_search{
+    text-align: center;
+    max-width: 80rem;
+    margin: auto;
+    background-color: var(--White);
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    margin-top: 6rem;
+    font-weight: bold;
+    padding:  0 2rem;
+}
+
+.search_box_content{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ADADAD;
+}
+
+.search_box{
+    text-align: right;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+    
+}
+.search_box img {
+    padding-left: 0.5rem;
+}
+.search_box input {
+    border: none;
     font-size: 2rem;
 }
-.thin-line{
-    border: none;
-    border-top: 1rem;
-    width: 65rem;
-    margin: 2rem auto;
+.search_box input ::placeholder {
+    color: var(--Black);
 }
-        
+.titr{
+    font-size: 3rem;
+}
