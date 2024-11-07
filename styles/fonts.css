@@ -1,8 +1,12 @@
 @font-face {
-    font-family: 'Anybody-Regular';
-    src: url("../fonts/static/Anybody_Condensed-Black.ttf")format('trutype');
+    font-family: "body-Regular";
+    src: url("../fonts/static/Anybody_Condensed-Regular.ttf") format ('truetype');
 }
 @font-face {
-    font-family: 'ADLaM_Display';
-    src: url("../fonts/ADLaM_Display/ADLaMDisplay-Regular.ttf")format('trutype');
+    font-family: "ADLaM_Display";
+    src: url("../fonts/ADLaM_Display/ADLaMDisplay-Regular.ttf") format ('truetype');
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Medium.ttf") format ('truetype');
 }
