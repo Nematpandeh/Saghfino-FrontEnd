@@ -1,6 +1,7 @@
-
-@import url(../styles/fonts.css);
-
+@font-face {
+    font-family: 'Regular';
+    src: url('../fonts/static/Advert-Regular.ttf');
+}
 
 :root
 {
@@ -24,9 +25,9 @@ body
     text-align: right;
     line-height: 1.6;
     font-size: 1.6rem;
-    font-family: "body-Regular";
     background-color: var(--White);
     justify-content: center;
+    font-family: 'Regular';
 }
 .logo
 {
@@ -71,6 +72,7 @@ body
 
 .menue-list
 {
+    font-family: "body";
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -78,7 +80,7 @@ body
 }
 .menue-list-item
 {
-    font-family: "body-Regular";
+    font-family: "";
     font-size: 2rem;
 
 }
@@ -111,7 +113,7 @@ body
 }
 .header-content_title{
     color: var(--White);
-    font-family:"ADLaM_Display" ;
+    font-family:"body" ;
     font-size: 6rem;
 
 }
@@ -158,6 +160,8 @@ body
 }
 .titr{
     font-size: 4rem;
+    font-family: "body";
+
 }
 
 .headre-widgets
@@ -219,4 +223,67 @@ body
 .titr-ti{
     padding-top: 9rem ;
     font-size: 4.4rem;
+    font-family: "body";
+}
+
+.headre-widgets
+{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+
+}
+.header-widget-sevice{
+    width: 39rem;
+    height: 49rem;
+    background-color: #FAFAFA;
+    border-radius: 1rem;
+    padding: 2rem;
+
+}
+.header-widget-sevice-imag{
+   margin: auto;
+   display: block;
+
+
+}
+.header-widget-sevice-title{
+    font-family: "Roboto";
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2.5rem;
+    color: var(--Black);
+
+
+}
+.header-widget-sevice-caption{
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 1.4rem;
+
+}
+.header-widget-sevice-link{
+
+     padding-top: 13rem;
+     
+
+
+}
+.header-widget-sevice-link-active{
+
+    border: 0.1rem solid var(--Primary);
+    background-color: var(--Primary);
+    color: var(--White);
+    padding: 0.6rem;
+    padding-left: 14rem;
+    padding-right: 14rem;
+   border-radius: 1rem;
+   text-decoration: none;
+    
+
+}
+.titr-ti{
+    padding-top: 9rem ;
+    font-size: 4.4rem;
+    font-family: "body";
 }
