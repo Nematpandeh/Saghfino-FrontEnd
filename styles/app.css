@@ -1,6 +1,4 @@
 
-@import url(../styles/fonts.css);
-
 
 :root
 {
@@ -24,9 +22,9 @@ body
     text-align: right;
     line-height: 1.6;
     font-size: 1.6rem;
-    font-family: "body-Regular";
     background-color: var(--White);
     justify-content: center;
+    font-family: body-Regular;
 }
 .logo
 {
@@ -78,7 +76,6 @@ body
 }
 .menue-list-item
 {
-    font-family: "body-Regular";
     font-size: 2rem;
 
 }
@@ -111,13 +108,12 @@ body
 }
 .header-content_title{
     color: var(--White);
-    font-family:"ADLaM_Display" ;
     font-size: 6rem;
+    font-family: 'body-md';
 
 }
 .header-content_caption{
     color: var(--White);
-    font-family: "ADLaM_Display";
     font-size: 3.8rem;
 
 }
@@ -137,13 +133,14 @@ body
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid #ADADAD;
+    font-family: body-md;
 }
 
 .search_box{
     text-align: right;
     display: flex;
     align-items: center;
-    padding: 1rem 1rem;
+    padding: 1rem;
     
 }
 .search_box img {
@@ -151,13 +148,16 @@ body
 }
 .search_box input {
     border: none;
-    font-size: 2rem;
+    font-size: 1.9rem;
+    font-family: body-md;
 }
 .search_box input ::placeholder {
     color: var(--Black);
 }
 .titr{
-    font-size: 4rem;
+    font-size: 3.1rem;
+    font-family: body-md;
+
 }
 
 .headre-widgets
@@ -182,7 +182,6 @@ body
 
 }
 .header-widget-sevice-title{
-    font-family: "Roboto";
     font-size: 2rem;
     text-align: center;
     padding-top: 2.5rem;
@@ -219,4 +218,66 @@ body
 .titr-ti{
     padding-top: 9rem ;
     font-size: 4.4rem;
+}
+
+.headre-widgets
+{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+
+}
+.header-widget-sevice{
+    width: 39rem;
+    height: 49rem;
+    background-color: #FAFAFA;
+    border-radius: 1rem;
+    padding: 2rem;
+
+}
+.header-widget-sevice-imag{
+   margin: auto;
+   display: block;
+
+
+}
+.header-widget-sevice-title{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2.5rem;
+    color: var(--Black);
+    font-family: body-md;
+
+
+}
+.header-widget-sevice-caption{
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 0.4rem;
+
+}
+.header-widget-sevice-link{
+
+     padding-top: 13rem;
+     
+
+
+}
+.header-widget-sevice-link-active{
+
+    border: 0.1rem solid var(--Primary);
+    background-color: var(--Primary);
+    color: var(--White);
+    padding: 0.6rem;
+    padding-left: 14rem;
+    padding-right: 14rem;
+   border-radius: 1rem;
+   text-decoration: none;
+    
+
+}
+.titr-ti{
+    padding-top: 9rem ;
+    font-size: 3.4rem;
+    font-family: body-md;
 }
