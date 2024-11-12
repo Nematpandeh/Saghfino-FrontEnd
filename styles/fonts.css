@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "body-Regular";
-    src: url("../fonts/static/Anybody_Condensed-Regular.ttf") format ('truetype');
+   font-family: body-Regular;
+   src: url(../fonts/Shabnam-Light.ttf);
 }
 @font-face {
-    font-family: "ADLaM_Display";
-    src: url("../fonts/ADLaM_Display/ADLaMDisplay-Regular.ttf") format ('truetype');
+   font-family: body-md;
+   src: url(../fonts/Shabnam-Medium.ttf);
 }
 @font-face {
-    font-family: "Roboto";
-    src: url("../fonts/Roboto/Roboto-Medium.ttf") format ('truetype');
+   font-family: body-bold;
+   src: url(../fonts/Shabnam-Bold.ttf);
 }
