@@ -150,8 +150,11 @@ body
     border: none;
     font-size: 1.9rem;
     font-family: body-md;
+<<<<<<< HEAD
     
     outline: none;
+=======
+>>>>>>> 25b46df2fdef55218ff60e2ef3985e7535cd20c3
 }
 .search_box input ::placeholder {
     color: var(--Black);
@@ -159,7 +162,10 @@ body
 .titr{
     font-size: 3.1rem;
     font-family: body-md;
+<<<<<<< HEAD
     padding-bottom: 3rem;
+=======
+>>>>>>> 25b46df2fdef55218ff60e2ef3985e7535cd20c3
 
 }
 
@@ -622,4 +628,66 @@ button {
 {
   margin-top: 15rem;
   margin-bottom: 4rem;
+}
+
+.headre-widgets
+{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+
+}
+.header-widget-sevice{
+    width: 39rem;
+    height: 49rem;
+    background-color: #FAFAFA;
+    border-radius: 1rem;
+    padding: 2rem;
+
+}
+.header-widget-sevice-imag{
+   margin: auto;
+   display: block;
+
+
+}
+.header-widget-sevice-title{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2.5rem;
+    color: var(--Black);
+    font-family: body-md;
+
+
+}
+.header-widget-sevice-caption{
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 0.4rem;
+
+}
+.header-widget-sevice-link{
+
+     padding-top: 13rem;
+     
+
+
+}
+.header-widget-sevice-link-active{
+
+    border: 0.1rem solid var(--Primary);
+    background-color: var(--Primary);
+    color: var(--White);
+    padding: 0.6rem;
+    padding-left: 14rem;
+    padding-right: 14rem;
+   border-radius: 1rem;
+   text-decoration: none;
+    
+
+}
+.titr-ti{
+    padding-top: 9rem ;
+    font-size: 3.4rem;
+    font-family: body-md;
 }
