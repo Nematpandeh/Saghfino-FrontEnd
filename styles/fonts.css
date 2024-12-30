@@ -1,0 +1,12 @@
+@font-face {
+   font-family: body-Regular;
+   src: url(../fonts/Shabnam-Light.ttf);
+}
+@font-face {
+   font-family: body-md;
+   src: url(../fonts/Shabnam-Medium.ttf);
+}
+@font-face {
+   font-family: body-bold;
+   src: url(../fonts/Shabnam-Bold.ttf);
+}
